@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@4
+      - uses: actions/checkout@3
       - name: Compile gcc project
         uses: rlalik/setup-cpp-compiler@master
         with:
