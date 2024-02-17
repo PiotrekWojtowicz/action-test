@@ -14,4 +14,4 @@ jobs:
         uses: rlalik/setup-cpp-compiler@master
         with:
           compiler: latest
-      - run: cc main.c
+      - run: cc ./testing/test.c
