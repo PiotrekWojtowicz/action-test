@@ -14,4 +14,6 @@ jobs:
         uses: rlalik/setup-cpp-compiler@master
         with:
           compiler: latest
-      - run: cc ./testing/test.c
+      - run: cc main.c
+      - name: Create a file xD
+        run: touch file.txt
