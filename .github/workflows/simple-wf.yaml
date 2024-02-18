@@ -16,6 +16,7 @@ jobs:
           compiler: latest
       - run: cc main.c
       - name: Create a file xD
-        run: touch file.txt
-        run: echo "twoja stara" > file.txt
-        run: cat file.txt
+        run: |
+          touch file.txt
+          echo "twoja stara" > file.txt
+          cat file.txt
