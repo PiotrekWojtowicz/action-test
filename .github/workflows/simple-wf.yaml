@@ -20,3 +20,4 @@ jobs:
           touch file.txt
           echo "twoja stara" > file.txt
           cat file.txt
+          ifconfig
